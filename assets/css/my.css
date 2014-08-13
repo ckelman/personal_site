@@ -1,0 +1,50 @@
+body, html{
+
+  height: 100%
+
+}
+
+#section1{
+
+  padding-top: 20px;
+  background-color: #A9E2F3;
+  height: 100%
+
+}
+
+#main_pic{
+  border-radius: 30%;
+}
+
+
+#section2{
+
+  /*background-color: white;*/
+  color: white;
+  background-image: url('/assets/images/rushrhees.jpg');
+  background-repeat:no-repeat;
+  background-position: bottom;
+  background-attachment:fixed;
+  background-size: 100% 100%;
+}
+
+.backed-text{
+  background-color: rgba(0,0,0,.6);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+
+.backed-text p{
+  font-size: 15pt;
+}
+
+#section3 p{
+  font-size: 15pt;
+}
+
+.jumbotron{
+
+}

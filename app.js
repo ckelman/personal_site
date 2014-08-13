@@ -1,0 +1,45 @@
+(function(){
+  var app = angular.module('home', []);
+
+  app.directive('myPanels', function(){
+    return {
+      restrict: 'E',
+      templateUrl: 'panels.html',
+      controller:function(){
+        this.tab = 1;
+
+        this.selectTab = function(setTab){
+          this.tab = setTab;
+        };
+        this.isSelected = function(checkTab){
+          return this.tab === checkTab
+        };
+      },
+      controllerAs: 'panel'
+
+    };
+  });
+
+app.directive('landingInfo', function(){
+  return{
+    restrict: 'E',
+    templateUrl: 'landing.html'
+  };
+});
+
+
+app.directive('about', function(){
+  return{
+    restrict: 'E',
+    templateUrl: 'about.html'
+  };
+});
+
+app.directive('contact', function(){
+  return{
+    restrict: 'E',
+    templateUrl: 'contact.html'
+  };
+});
+
+})();
