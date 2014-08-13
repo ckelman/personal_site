@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=x\ y\ h\ w\ b
+comment0.target=Shotgun(int,\ int,\ int,\ int,\ ShotgunBullet)
+comment1.params=
+comment1.target=ShotgunBullet\ shoot()
+numComments=2

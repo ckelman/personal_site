@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Explosion(int,\ int)
+comment1.params=m\ p
+comment1.target=void\ explode(MainCharacter,\ java.util.ArrayList)
+comment2.params=g2
+comment2.target=void\ draw(java.awt.Graphics2D)
+numComments=3

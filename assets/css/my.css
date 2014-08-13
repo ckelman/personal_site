@@ -1,21 +1,17 @@
-body, html{
 
-  height: 100%
-
-}
 
 #section1{
 
-  padding-top: 20px;
-  background-color: #A9E2F3;
-  height: 100%;
+ /* padding-top: 20px;
+  background-color: #A9E2F3;*/
 
 
 }
 
 .jumbotron{
-
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.0);
+  height:100%;
+  color: black;
 }
 
 #main_pic{
@@ -27,7 +23,7 @@ body, html{
 
   /*background-color: white;*/
   color: white;
-  background-image: url('/assets/images/rushrhees.jpg');
+  background-image: url('../images/rushrhees.jpg');
   background-repeat:no-repeat;
   background-position: bottom;
   background-attachment:fixed;
@@ -51,6 +47,32 @@ body, html{
   font-size: 15pt;
 }
 
-.jumbotron{
+
+.center {
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    border-radius: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+i {
+    text-align:center;
+
+
+}
+
+.vertical-padding{
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.bubble{
+
 
 }

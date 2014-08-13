@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=xLoc\ yLoc\ h\ w\ dam\ dis\ s\ isFriendly
+comment0.target=Bullet(int,\ int,\ int,\ int,\ int,\ int,\ int,\ boolean)
+comment1.params=
+comment1.target=void\ move()
+comment2.params=
+comment2.target=int\ getDistanceCount()
+comment3.params=
+comment3.target=boolean\ getIsFriendly()
+comment4.params=
+comment4.target=int\ getDamage()
+comment5.params=
+comment5.target=int\ getDistance()
+comment6.params=
+comment6.target=int\ getSpeed()
+comment7.params=g2
+comment7.target=void\ draw(java.awt.Graphics2D)
+numComments=8

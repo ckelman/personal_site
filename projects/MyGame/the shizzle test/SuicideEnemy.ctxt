@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=SuicideEnemy(int,\ int)
+comment1.params=m
+comment1.target=boolean\ willExplode(MainCharacter)
+comment2.params=main\ g
+comment2.target=void\ attack(MainCharacter,\ java.util.ArrayList)
+comment3.params=ground
+comment3.target=void\ pace(java.util.ArrayList)
+comment4.params=g2
+comment4.target=void\ draw(java.awt.Graphics2D)
+numComments=5

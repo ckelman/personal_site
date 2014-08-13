@@ -1,10 +1,10 @@
 (function(){
   var app = angular.module('home', []);
 
-  app.directive('myPanels', function(){
+  app.directive('projects', function(){
     return {
       restrict: 'E',
-      templateUrl: 'panels.html',
+      templateUrl: 'projects.html',
       controller:function(){
         this.tab = 1;
 
@@ -39,6 +39,14 @@ app.directive('contact', function(){
   return{
     restrict: 'E',
     templateUrl: 'contact.html'
+  };
+});
+
+
+app.directive('myGame', function(){
+  return{
+    restrict: 'E',
+    templateUrl: 'ap_game.html'
   };
 });
 

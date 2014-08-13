@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Boss(int,\ int)
+comment1.params=m\ bullets
+comment1.target=void\ attack1(MainCharacter,\ java.util.ArrayList)
+comment2.params=
+comment2.target=int\ getBossAttack()
+comment3.params=
+comment3.target=int\ getBossTimer()
+comment4.params=i
+comment4.target=void\ setBossAttack(int)
+comment5.params=i
+comment5.target=void\ setBossTimer(int)
+comment6.params=ground
+comment6.target=void\ pace(java.util.ArrayList)
+comment7.params=g2
+comment7.target=void\ draw(java.awt.Graphics2D)
+numComments=8

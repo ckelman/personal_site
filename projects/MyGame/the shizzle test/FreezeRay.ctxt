@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=x\ y\ w\ h\ b
+comment0.target=FreezeRay(int,\ int,\ int,\ int,\ FreezeBullet)
+comment1.params=
+comment1.target=FreezeBullet\ shoot()
+numComments=2

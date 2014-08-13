@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y\ w\ h\ dxx\ dyy\ md
+comment0.target=MovingPlatform(int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment1.params=
+comment1.target=int\ getDX()
+comment2.params=
+comment2.target=int\ getDY()
+comment3.params=
+comment3.target=void\ move()
+comment4.params=enemies\ ps
+comment4.target=void\ moveEnemies(java.util.ArrayList,\ java.util.ArrayList)
+comment5.params=m\ ps
+comment5.target=void\ moveMe(MainCharacter,\ java.util.ArrayList)
+numComments=6

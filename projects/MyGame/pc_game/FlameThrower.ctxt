@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=x\ y\ w\ h\ b
+comment0.target=FlameThrower(int,\ int,\ int,\ int,\ FlameThrowerBullet)
+comment1.params=
+comment1.target=FlameThrowerBullet\ shoot()
+numComments=2

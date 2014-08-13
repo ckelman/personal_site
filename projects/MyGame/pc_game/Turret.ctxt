@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=x\ y\ w\ h
+comment0.target=Turret(int,\ int,\ int,\ int)
+comment1.params=m
+comment1.target=void\ isInTurret(MainCharacter)
+comment2.params=m
+comment2.target=void\ activateTurret(MainCharacter)
+comment3.params=m
+comment3.target=void\ deactivateTurret(MainCharacter)
+comment4.params=g2
+comment4.target=void\ draw(java.awt.Graphics2D)
+numComments=5
