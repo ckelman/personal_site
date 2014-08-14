@@ -2,27 +2,33 @@
 
 <section class="mytest">
   <ul class="nav nav-pills">
-    <li ng-class="{ active: panel.isSelected(1) }"> <a href ng-click="panel.selectTab(1)">Description</a> </li>
-    <li ng-class="{ active: panel.isSelected(2) }"> <a href ng-click="panel.selectTab(2)">Specifications</a> </li>
-    <li ng-class="{ active: panel.isSelected(3) }"> <a href ng-click="panel.selectTab(3)">Reviews</a> </li>
+    <li ng-class="{ active: panel.isSelected(1) }"> <a href ng-click="panel.selectTab(1)">Fantasy Football</a> </li>
+    <li ng-class="{ active: panel.isSelected(2) }"> <a href ng-click="panel.selectTab(2)">Java Game</a> </li>
+    <li ng-class="{ active: panel.isSelected(3) }"> <a href ng-click="panel.selectTab(3)">Nine Board Tic-Tac-Toe</a> </li>
   </ul>
 
   <div class="panel" ng-show="panel.isSelected(1)">
-    <h4>Specifications</h4>
-    <p>None yet</p>
+    <h2>Fantasy Football Rails Site</h2>
+    <a class='btn btn-md btn-success' href='http://www.charliekelman.com'>Go to Site</a>
+    <p>A rails app I developed to scrape player data and statistics from ESPN, and make predictions in the form of fantasy football performance.</p>
+
+    <h4>Things I'd like to add:</h4>
+    <ul>
+      <li>Scraping NFL.com player statistics for a more robust database</li>
+      <li>Finding more trends in how # of carries effects running back performance the next season</li>
+      <li>More visualization of data through graphs</li>
+    </ul>
+
+
+
   </div>
 
   <div class="panel" ng-show="panel.isSelected(2)">
     <my-game></my-game>
   </div>
-  
+
   <div class="panel" ng-show="panel.isSelected(3)">
     <h1>HI</h1>
   </div>
 
 </section>
-
-
-
-
- 
