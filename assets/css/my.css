@@ -22,8 +22,8 @@ html, body{
 }
 
 .right-padding{
-  margin-left:-40px;
-  margin-right: 60px;
+
+  margin-right: 100px;
 }
 
 h1{
@@ -135,8 +135,7 @@ background-size: 100% 100%;
   background-color: rgba(255,255,255,1);
   border-radius: 8px;
   margin-bottom: 15px;
-  padding-left: 8px;
-  padding-right: 8px;
+
 
 }
 
@@ -176,6 +175,10 @@ background-size: 100% 100%;
 
 }
 
+#project-display{
+  border-radius:8px;
+}
+
 i {
     text-align:center;
 
@@ -185,6 +188,11 @@ i {
 .vertical-padding{
   padding-top: 40px;
   padding-bottom: 70px;
+}
+
+.horizontal-padding{
+  padding-left:20px;
+  padding-right:20px
 }
 
 .vertical-margins{
@@ -200,4 +208,8 @@ i {
   padding-right: 25px;
   padding-left: 25px;
 
+}
+
+#contact i{
+  color: rgba(0,0,0,.8);
 }
