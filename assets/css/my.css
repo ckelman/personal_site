@@ -200,6 +200,10 @@ i {
   margin-top:10px;
   margin-bottom: 70px;
 }
+
+.top-margin{
+  margin-top:10px;
+}
 .bottom-padding{
   padding-bottom:20px;
 }
@@ -211,5 +215,6 @@ i {
 }
 
 #contact i{
-  color: rgba(0,0,0,.8);
+  color: rgba(255,255,255,1);
+  margin-right:15px;
 }
