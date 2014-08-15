@@ -1,5 +1,6 @@
 html, body{
   width:100%;
+  height:100%
 }
 
 .center-margins{
@@ -8,6 +9,13 @@ html, body{
 
 .blue-bar{
   background-color: rgba(169, 226, 243, .6);
+  width:100%;
+
+  box-shadow: inset 0 5px 10px rgba(0,0,0,.05),inset 0px -5px 10px rgba(0,0,0,.05);
+}
+
+.white-bar{
+  background-color: rgba(255, 255, 255, 1);
   width:100%;
 
   box-shadow: inset 0 5px 10px rgba(0,0,0,.05),inset 0px -5px 10px rgba(0,0,0,.05);
@@ -43,17 +51,22 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 
  /* padding-top: 20px;
   background-color: #A9E2F3;*/
+  height:100%;
 
 
 }
 #landing h1{
 
   font-size: 63px;
-  color: black;
+  background-color: rgba(255,255,255,.9);
 
-
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 10px;
 }
-#landing p{
+#bio p{
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
@@ -63,7 +76,26 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
   padding-right: 60px;
   padding-left: 60px;*/
   width:100%;
+  height:100%;
+background-image: url('../images/rushrhees.jpg');
+background-repeat:no-repeat;
+background-position: bottom;
+background-attachment:fixed;
+background-size: 100% 100%;
 }
+
+#bio h2{
+
+  font-size: 43px;
+  background-color: rgba(255,255,255,.9);
+
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 10px;
+}
+
+
 
 
 .jumbotron{
@@ -95,11 +127,12 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
   margin-bottom: 15px;
   padding-left: 8px;
   padding-right: 8px;
+  font-size: 15pt;
 
 }
 
 .backed-text-light{
-  background-color: rgba(255,255,255,.6);
+  background-color: rgba(255,255,255,1);
   border-radius: 8px;
   margin-bottom: 15px;
   padding-left: 8px;
@@ -107,9 +140,14 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 
 }
 
-.backed-text p{
-  font-size: 15pt;
+.backed{
+  background-color: rgba(0,0,0,.6);
 }
+
+.backed-light{
+  background-color: rgba(255,255,255,.9);
+}
+
 
 #section3 p{
   font-size: 15pt;
@@ -147,6 +185,12 @@ i {
 .vertical-padding{
   padding-top: 40px;
   padding-bottom: 70px;
+}
+
+.vertical-margins{
+  padding-top: 20px;
+  margin-top:10px;
+  margin-bottom: 70px;
 }
 .bottom-padding{
   padding-bottom:20px;
