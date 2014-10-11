@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=MeeleeEnemy(int,\ int)
+comment1.params=main\ g
+comment1.target=void\ attack(MainCharacter,\ java.util.ArrayList)
+comment2.params=ground
+comment2.target=void\ pace(java.util.ArrayList)
+comment3.params=g2
+comment3.target=void\ draw(java.awt.Graphics2D)
+numComments=4

@@ -50,4 +50,11 @@ app.directive('myGame', function(){
   };
 });
 
+app.directive('myMac', function(){
+  return{
+    restrict: 'E',
+    templateUrl: 'ap_game_mac.html'
+  };
+});
+
 })();

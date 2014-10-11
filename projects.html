@@ -18,6 +18,7 @@
   <ul class="nav nav-pills">
     <li ng-class="{ active: panel.isSelected(1) }"> <a href ng-click="panel.selectTab(1)">Fantasy Football</a> </li>
     <li ng-class="{ active: panel.isSelected(2) }"> <a href ng-click="panel.selectTab(2)">Java Game</a> </li>
+    <li ng-class="{ active: panel.isSelected(4) }"> <a href ng-click="panel.selectTab(4)">Java Game (Mac Version)</a> </li>
     <li ng-class="{ active: panel.isSelected(3) }"> <a href ng-click="panel.selectTab(3)">Nine Board Tic-Tac-Toe</a> </li>
   </ul>
 
@@ -40,6 +41,10 @@
 
   <div class="" ng-show="panel.isSelected(2)">
     <my-game></my-game>
+  </div>
+
+  <div class="" ng-show="panel.isSelected(4)">
+    <my-mac></my-mac>
   </div>
 
   <div class="" ng-show="panel.isSelected(3)">
