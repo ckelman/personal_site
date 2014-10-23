@@ -81,8 +81,8 @@ $(document).ready(function () {
 
 
 
-      if ($containerWidth <= 770) {
-        $('#landing').css('height', '1000px');
+      if ($containerWidth <= 760) {
+        $('#landing').css('height', '1100px');
         $('#text-info').removeClass('col-sm-offset-3');
         $('#text-info').addClass('col-sm-offset-3');
 
@@ -91,14 +91,18 @@ $(document).ready(function () {
          $('#pro-pic').removeClass('col-sm-offset-1');
       }
 
-      else if ($containerWidth <= 900) {
-        $('#landing').css('height', '800px');
+      else if ($containerWidth <= 970) {
         $('#text-info').removeClass('col-sm-offset-3');
         $('#text-info').addClass('col-sm-offset-3');
 
         // $('#pro-pic').removeClass('col-sm-offset-4');
         // $('#pro-pic').addClass('col-sm-offset-4');
          $('#pro-pic').removeClass('col-sm-offset-1');
+
+         
+        $('#landing').css("height","800");
+        $('#landing').css("background-size","100% 800");
+
       }
 
       else {
@@ -108,9 +112,7 @@ $(document).ready(function () {
         // $('#pro-pic').removeClass('col-sm-offset-4');
         // $('#pro-pic').addClass('col-sm-offset-1');
 
-      }
-
-       if($containerHeight <= 600){
+        if($containerHeight <= 600){
         $('#landing').css("height","600");
         $('#landing').css("background-size","100% 600");
 
@@ -119,6 +121,11 @@ $(document).ready(function () {
         $('#landing').css("height","100%");
         $('#landing').css("background-size","100% 100%");
       }
+
+
+      }
+
+       
 
 
     });
