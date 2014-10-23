@@ -17,21 +17,23 @@
 <section id= 'project-display' class="mytest white-bar vertical-margins horizontal-padding bottom-padding">
   <ul class="nav nav-pills">
     <li ng-class="{ active: panel.isSelected(1) }"> <a href ng-click="panel.selectTab(1)">Fantasy Football</a> </li>
+    <li ng-class="{ active: panel.isSelected(3) }"> <a href ng-click="panel.selectTab(3)">Nine Board Tic-Tac-Toe</a> </li>
     <li ng-class="{ active: panel.isSelected(2) }"> <a href ng-click="panel.selectTab(2)">Java Game</a> </li>
     <li ng-class="{ active: panel.isSelected(4) }"> <a href ng-click="panel.selectTab(4)">Java Game (Mac Version)</a> </li>
-    <li ng-class="{ active: panel.isSelected(3) }"> <a href ng-click="panel.selectTab(3)">Nine Board Tic-Tac-Toe</a> </li>
+
   </ul>
 
 
   <div class="" ng-show="panel.isSelected(1)">
     <h2>Fantasy Football Rails Site</h2>
+    <a href="https://github.com/ckelman/fantasy_football" class='btn btn-md btn-info' target="_blank">See on Github</a>
     <a class='btn btn-md btn-success' href='http://football.charliekelman.com'>Go to Site</a>
-    <p>A rails app I developed to scrape player data and statistics from ESPN, and make predictions in the form of fantasy football performance.</p>
+    <p>A rails app I am currently developing to scrape player data and statistics from ESPN and make predictions about players' future fantasy football performance.</p>
 
     <h4>Things I'd like to add:</h4>
     <ul>
       <li>Scraping NFL.com player statistics for a more robust database</li>
-      <li>Finding more trends in how # of carries effects running back performance the next season</li>
+      <li>Finding more trends such as how # of carries effects running back performance the next season</li>
       <li>More visualization of data through graphs</li>
     </ul>
 
@@ -49,6 +51,7 @@
 
   <div class="" ng-show="panel.isSelected(3)">
     <h2>Nine Board Tic-Tac-Toe</h2>
+    <a href="https://github.com/ckelman/nine-board-tic-tac-toe" class='btn btn-md btn-info' target="_blank">See on Github</a>
     <a href="projects/NineBoard.zip" class='btn btn-md btn-success' target="_blank">Download</a>
     <p>A Java program that plays a game of Nine Board Tic-Tac-Toe against the user.</p>
 

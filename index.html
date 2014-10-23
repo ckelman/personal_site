@@ -8,15 +8,33 @@
 
     <script type="text/javascript" src="assets/javascript/angular.min.js"></script>
     <script type="text/javascript" src="assets/javascript/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/jquery.scrollTo.js"></script> 
+    <script type="text/javascript" src="assets/javascript/jquery.localScroll.js"></script>
     <script type="text/javascript" src="assets/javascript/my.js"></script>
 
 
     <script type="text/javascript" src="app.js"></script>
 
+
+
     <!--<script type="text/javascript" src="assets/javascript/jquery-2.1.1.min.js"></script>-->
 
 
     <!--<script type="text/javascript" src="assets/javascript/bootstrap.min.js"></script>-->
+
+    <!-- javascript that will initiate jQuery and the LocalScroll plugin -->
+        <script type="text/javascript">// <![CDATA[
+    // When the document is loaded...
+    $(document).ready(function()
+    {
+        // Scroll the whole document
+        $('#biolink').localScroll();
+ 
+    });
+ 
+// ]]></script>
+
+
   </head>
 
   <body>
