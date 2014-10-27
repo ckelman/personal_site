@@ -255,3 +255,17 @@ i {
 #down-nav {
   color: rgba(255,255,255,.85);
 }
+
+.nav-pills li a{
+  /*background-color:#333333;*/
+  /*background-color:#999999;*/
+   background-color:#333333;
+   color:white;
+}
+
+.nav-pills li a:hover{
+  /*background-color:#999999;*/
+   background-color:#C8C8C8;
+   color: black;
+;
+}
