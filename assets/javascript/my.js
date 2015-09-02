@@ -7,15 +7,18 @@ $(document).ready(function () {
   $("#nine-board-panel").hide();
     $("#java-game-mac-panel").hide();
     $("#java-game-pc-panel").hide();
-    $("#football-panel").show();
+    $("#football-panel").hide();
+    $("#sirge-panel").show();
 
   $("#football-toggle").click(function(){
     $("#nine-board-panel").hide();
     $("#java-game-mac-panel").hide();
     $("#java-game-pc-panel").hide();
+    $("#sirge-panel").hide();
     $("#football-panel").show();
 
     $("#football-pill").removeClass("active");
+    $("#sirge-pill").removeClass("active");
     $("#nine-board-pill").removeClass("active");
     $("#java-game-pc-pill").removeClass("active");
     $("#java-game-mac-pill").removeClass("active");
@@ -28,13 +31,14 @@ $(document).ready(function () {
     $("#java-game-mac-panel").hide();
     $("#java-game-pc-panel").hide();
     $("#football-panel").hide();
-
+    $("#sirge-panel").hide();
     $("#nine-board-panel").show();
 
     $("#football-pill").removeClass("active");
     $("#nine-board-pill").removeClass("active");
     $("#java-game-pc-pill").removeClass("active");
     $("#java-game-mac-pill").removeClass("active");
+    $("#sirge-pill").removeClass("active");
 
     $("#nine-board-pill").addClass("active");
 
@@ -44,12 +48,14 @@ $(document).ready(function () {
     $("#football-panel").hide();
     $("#nine-board-panel").hide();
     $("#java-game-mac-panel").hide();
+    $("#sirge-panel").hide();
     $("#java-game-pc-panel").show();
 
     $("#football-pill").removeClass("active");
     $("#nine-board-pill").removeClass("active");
     $("#java-game-pc-pill").removeClass("active");
     $("#java-game-mac-pill").removeClass("active");
+    $("#sirge-pill").removeClass("active");
 
     $("#java-game-pc-pill").addClass("active");
   });
@@ -58,14 +64,32 @@ $(document).ready(function () {
     $("#football-panel").hide();
     $("#nine-board-panel").hide();
     $("#java-game-pc-panel").hide();
+    $("#sirge-panel").hide();
     $("#java-game-mac-panel").show();
 
     $("#football-pill").removeClass("active");
     $("#nine-board-pill").removeClass("active");
     $("#java-game-pc-pill").removeClass("active");
     $("#java-game-mac-pill").removeClass("active");
+    $("#sirge-pill").removeClass("active");
 
     $("#java-game-mac-pill").addClass("active");
+  });
+
+  $("#sirge-toggle").click(function(){
+    $("#football-panel").hide();
+    $("#nine-board-panel").hide();
+    $("#java-game-pc-panel").hide();
+    $("#sirge-panel").show();
+    $("#java-game-mac-panel").hide();
+
+    $("#football-pill").removeClass("active");
+    $("#nine-board-pill").removeClass("active");
+    $("#java-game-pc-pill").removeClass("active");
+    $("#java-game-mac-pill").removeClass("active");
+    $("#sirge-pill").addClass("active");
+
+    $("#java-game-mac-pill").removeClass("active");
   });
 
 

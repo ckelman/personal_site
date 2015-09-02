@@ -63,6 +63,16 @@
           <row>
             <div class="col-sm-6 col-sm-offset-3 bubble">
               <div style='text-align: center;'>
+                <i class="center fa fa-gear fa-5x"></i>
+              </div>
+            </div>
+          </row>
+        </div>
+         <div class="col-sm-4">
+          <h2 class="text-center">Software Developer</h2>
+          <row>
+            <div class="col-sm-6 col-sm-offset-3 bubble">
+              <div style='text-align: center;'>
                 <i class="center fa fa-code fa-5x"></i>
               </div>
             </div>
@@ -79,17 +89,7 @@
             </div>
           </row>
         </div>
-
-        <div class="col-sm-4">
-          <h2 class="text-center">Budding Economist</h2>
-          <row>
-            <div class="col-sm-6 col-sm-offset-3 bubble">
-              <div style='text-align: center;'>
-                <i class="center fa fa-bar-chart-o fa-5x"></i>
-              </div>
-            </div>
-          </row>
-        </div>
+        
       </div>
     </div>
 
@@ -161,10 +161,11 @@
 
 <section id= 'project-display' class="mytest white-bar vertical-margins horizontal-padding bottom-padding">
   <ul class="nav nav-pills">
-    <li id="football-pill" class="active"> <a id="football-toggle" href="javascript:void(0);">Fantasy Football</a> </li>
+    <li id="sirge-pill" class="active"> <a id="sirge-toggle" href="javascript:void(0);">The Sirge</a> </li>
+    <li id="football-pill" > <a id="football-toggle" href="javascript:void(0);">Fantasy Football</a> </li>
     <li id="nine-board-pill"> <a id="nine-board-toggle" href="javascript:void(0);">Nine Board Tic-Tac-Toe</a> </li>
     <li id="java-game-pc-pill"> <a id="java-game-pc-toggle" href="javascript:void(0);">Java Game</a> </li>
-    <li id="java-game-mac-pill"> <a id="java-game-mac-toggle" href="javascript:void(0);">Java Game (Mac Version)</a> </li>
+ 
 
   </ul>
 
@@ -173,11 +174,10 @@
     <h2>Fantasy Football Rails Site</h2>
     <a href="https://github.com/ckelman/fantasy_football" class='btn btn-md btn-info' target="_blank">See on Github</a>
     <a class='btn btn-md btn-success' href='http://football.charliekelman.com' target="_blank">Go to Site</a>
-    <p>A rails app I am currently developing to scrape player data and statistics from ESPN and make predictions about players' future fantasy football performance.</p>
+    <p>A searchable online database of NFL player stats scraped from ESPN.  The site allows users to graph any two stats for a given player, or to compare the same stat across many players in order to find trends in and compare player production</p>
 
     <h4>Things I'd like to add:</h4>
     <ul>
-      <li>Scraping NFL.com player statistics for a more robust database</li>
       <li>Finding more trends such as how # of carries affects running back performance the next season</li>
       <li>More visualization of data through graphs</li>
     </ul>
@@ -189,7 +189,8 @@
   <div id="java-game-pc-panel"class="" style="display:none;">
     <h1>Java Game</h1>
 <a href="https://github.com/ckelman/java-game" class='btn btn-md btn-info' target="_blank">See on Github</a>
-<a href="projects/MyGame/pc_game.zip" class='btn btn-md btn-success' target="_blank">Download</a>
+<a href="projects/MyGame/pc_game.zip" class='btn btn-md btn-success' target="_blank">PC Download</a>
+<a href="projects/MyGame/mac_game.zip" class='btn btn-md btn-success' target="_blank">Mac Download</a>
 <p>
   Made Junior year of high school, this was the first large program I wrote, and I still enjoy playing it every now and then.</p>
 <p>
@@ -202,21 +203,6 @@
 
   </div>
 
-  <div id="java-game-mac-panel" class="" style="display:none;">
-    <h1>Java Game (Mac Version)</h1>
- <a href="https://github.com/ckelman/java-game-mac" class='btn btn-md btn-info' target="_blank">See on Github</a>
-<a href="projects/MyGame/mac_game.zip" class='btn btn-md btn-success' target="_blank">Download</a>
-<p>
-  Made Junior year of high school, this was the first large program I wrote, and I still enjoy playing it every now and then.</p>
-<p>
-  It's a Java applet which can be a little unstable in web browsers
-   (Chrome doesn't support Java applets, web browser must have java security settings on medium or have an exception for this site, Mac version sometimes finicky), but hopefully it works for you!  If you'd like
-   to poke around the code, or get it running on your local machine, please download the code and have at it!
-</p>
-
-        
-
-  </div>
 
   <div id="nine-board-panel" class="" style="display:none;">
     <h2>Nine Board Tic-Tac-Toe</h2>
@@ -225,6 +211,16 @@
     <p>A Java program that plays a game of Nine Board Tic-Tac-Toe against the user.</p>
 
     <p>To run, compile and run the MinimaxComputerGame.java file in the terminal or your favorite Java IDE.</p>
+  </div>
+
+
+    <div id="sirge-panel" class="" style="display:none;">
+    <h2>The Sirge</h2>
+
+    <a class='btn btn-md btn-success' href='http://thesirge.com/' target="_blank">Go to Site</a>
+    <p>A fully functioning news aggregation site with 20,000 users, built with Node.js and Express. The Sirge pulls articles from all over the web and makes suggestions to users based on the articles they have read in the past. The site also allows users to share, like, and save articles for later.  Now maintained by Cogo Labs.
+</p>
+
   </div>
 
 </section>
@@ -254,13 +250,12 @@
           <h2>Want to get in touch?</h2>
           </br>
           <h4>
-            I'm currently studying abroad at Trinity College in Dublin until December 22, but would love to hear from you!
+            I'm currently finishing my undergraduate education at the University of Rochester and would love to hear from you!
           </h4>
 
           <h3>Contact Charlie by...</h3>
           <h4>Email: ckelman@u.rochester.edu</h4>
-          <h4>Irish Phone (before December 22):  (+353) 083-452-3992</h4>
-          <h4>US Phone (after December 22): 508-309-9557</h4>
+          <h4>Phone: 508-309-9557</h4>
           <h4>Skype: charlie.kelman</h4>
 
 
