@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
+    <link rel="shortcut icon" type="image/png" href="assets/images/fa-lightbulb.png"/>
+
 
     <script type="text/javascript" src="assets/javascript/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="assets/javascript/jquery.scrollTo.js"></script> 
@@ -15,6 +17,18 @@
 
 
     <script type="text/javascript" src="app.js"></script>
+
+    <!-- Google analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88424693-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
         <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0 maximum-scale=1.0" />
 
@@ -84,11 +98,11 @@
         </div>
 
          <div class="col-sm-4">
-          <h2 class="text-center">Entrepreneur</h2>
+          <h2 class="text-center">Person</h2>
           <row>
             <div class="col-sm-6 col-sm-offset-3 bubble">
               <div style='text-align: center;'>
-                <i class="center fa fa-line-chart fa-5x"></i>
+                <i class="center fa fa-male fa-5x"></i>
               </div>
             </div>
           </row>
@@ -130,12 +144,16 @@
       <div class='row'>
         <div id='text-info'class="col-sm-6 backed-text-light" style='margin-top:70px;'>
             <p>
-              Charlie Kelman attends the University of Rochester where he is pursung a double major in Computer Science and Economics.
+              Charlie Kelman recently graduated from The University of Rochester with degrees in Computer Science and Economics.
             </p>
 
             <p>
-              He has proven experience in:</br>
-              Java, C, Ruby on Rails, Node.js, JavaScript, AJAX, CSS, and HTML
+              Since graduating he has been working in the field of Electronic Healthcare Records as a software developer for Epic Systems just outside of Madison, WI.
+            </p>
+
+            <p>
+              Through work, studies, past internships, and personal projects, Charlie has learned and worked in a variety of languages such as:</br>
+              Java, Javascript, Ruby on Rails, Node.js, AJAX, CSS, HTML, C, C#, and SQL.
             </p>
 
           </div>
@@ -167,7 +185,6 @@
 
 <section id= 'project-display' class="mytest white-bar vertical-margins horizontal-padding bottom-padding">
   <ul class="nav nav-pills">
-    <li id="sirge-pill" class="active"> <a id="sirge-toggle" href="javascript:void(0);">The Sirge</a> </li>
     <li id="football-pill" > <a id="football-toggle" href="javascript:void(0);">Fantasy Football</a> </li>
     <li id="nine-board-pill"> <a id="nine-board-toggle" href="javascript:void(0);">Nine Board Tic-Tac-Toe</a> </li>
     <li id="campusfly-pill"> <a id="campusfly-toggle" href="javascript:void(0);">CampusFly</a> </li>
@@ -182,13 +199,13 @@
     <a class='btn btn-md btn-success' href='http://football.charliekelman.com' target="_blank">Go to Site</a>
     <a href="https://github.com/ckelman/fantasy_football" class='btn btn-md btn-info' target="_blank">See on Github</a>
     
-    <p>A searchable online database of NFL player stats scraped from ESPN.  The site allows users to graph any two stats for a given player, or to compare the same stat across many players in order to find trends in and compare player production</p>
+    <p>A searchable online database of NFL player stats scraped from ESPN.  The site allows users to compare stats across many players, or to compare any two stats within the same player in order to find trends in and compare player production</p>
 
     <h4>Things I'd like to add:</h4>
     <ul>
-      <li>Improved projections</li>
-      <li>Account for change of team</li>
-      <li>Account for change of position on depth chart</li>
+      <li>Alerting the user to errors</li>
+      <li>Altering the URL to allow saving and sharing of graphs</li>
+      <li>Implement AI to allow for predictions</li>
     </ul>
 
 
@@ -202,11 +219,9 @@
     <a href="https://github.com/ckelman/java-game" class='btn btn-md btn-info' target="_blank">See on Github</a>
 
     <p>
-      Made Junior year of high school, this was the first large program I wrote, and I still enjoy playing it every now and then.</p>
+      Made Junior year of high school (2010-2011), this was the first large program I wrote, and I still enjoy playing it every now and then.</p>
     <p>
-      It's a Java applet which can be a little unstable in web browsers
-       (Chrome doesn't support Java applets, web browser must have java security settings on medium or have an exception for this site, Mac version sometimes finicky), but hopefully it works for you!  If you'd like
-       to poke around the code, or get it running on your local machine, please download the code and have at it!
+       This was written as a Java Applet, support for which has since been discontinued by Oracle. This can make it tricky to run, but feel free to try or have a look at the code.
     </p>
 
 
@@ -227,26 +242,18 @@
   </div>
 
 
-    <div id="sirge-panel" class="" style="display:none;">
-    <h2>The Sirge</h2>
-
-    <a class='btn btn-md btn-success' href='http://thesirge.com/' target="_blank">Go to Site</a>
-    <p>A fully functioning news aggregation site with 20,000 users, built with Node.js and Express. The Sirge pulls articles from all over the web and makes suggestions to users based on the articles they have read in the past. The site also allows users to share, like, and save articles for later.  Now maintained by Cogo Labs.
-</p>
-
-  </div>
 
 
   <div id="campusfly-panel" class="" style="display:none;">
     <h2>CampusFly</h2>
 
-    <a class='btn btn-md btn-success' href='http://www.campusfly.us/' target="_blank">Go to Site</a>
+ <!--    <a class='btn btn-md btn-success' href='http://www.campusfly.us/' target="_blank">Go to Site</a> -->
     <a href="https://github.com/ckelman/campusfly" class='btn btn-md btn-info' target="_blank">See on Github</a>
     <p>
-      Campusfly is a student-run startup that was accepted into the High Tech Rochester Incubator and secured $4.5k in funding
+      Campusfly was a student-run startup that was accepted into the High Tech Rochester Incubator and secured $4.5k in funding
     </p>
     <p>
-      An event management platform for students and college event organizers.  CampusFly brings the many event advertisement platforms such as Facebook, mailing lists, and on campus flyers to one place.  Users can browse and sign up for events, see what events their friends are going to, and purchase tickets for ticketed events.
+      An event management platform for students and college event organizers.  CampusFly sought to bring the many event advertisement platforms such as Facebook, mailing lists, and on campus flyers to one place.  Users could browse and sign up for events, see what events their friends are going to, and quickly create their own events.
     </p>
 
   </div>
@@ -278,7 +285,7 @@
           <h2>Want to get in touch?</h2>
 
           <h3>Contact Charlie by...</h3>
-          <h4>Email: ckelman@u.rochester.edu</h4>
+          <h4>Email: cikelman94@gmail.com</h4>
           <h4>Phone: 508-309-9557</h4>
           <h4>Skype: charlie.kelman</h4>
 

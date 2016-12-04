@@ -7,9 +7,9 @@ $(document).ready(function () {
   $("#nine-board-panel").hide();
     $("#java-game-mac-panel").hide();
     $("#java-game-pc-panel").hide();
-    $("#football-panel").hide();
+    $("#football-panel").show();
     $("#campusfly-panel").hide();
-    $("#sirge-panel").show();
+    $("#football-pill").addClass("active");
 
   $("#football-toggle").click(function(){
     $("#nine-board-panel").hide();
